@@ -1,0 +1,127 @@
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background: #607D8B;
+}
+
+/* --- Utilities --- */
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.text-center {
+  text-align: center;
+}
+
+/* --- List inline --- */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
+
+.avatar {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.card-container {
+  margin-top: 20px;
+  width: 250px;
+  flex: 0 0 30%;
+}
+
+.card-white {
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #B3B3B3;
+}
+
+.card-white-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-white .list-inline {
+  color: #B3B3B3;
+  font-size: 13PX;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.card-white .list-inline li {
+  padding-left: 10px;
+}
+
+.card-white .list-inline li i{
+  padding-right: 5px;
+}
+
+.card-user {
+  padding-top: 10px;
+}
+
+.card-user a {
+  color: white;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.btn {
+  padding: 4px 8px;
+  background-color: white;
+  margin: 8px;
+  display: inline-block;
+  color: gray;
+  border: 1px solid rgb(240,240,240);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.card-white .btn {
+  opacity: 0;
+  transition: 2s;
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
